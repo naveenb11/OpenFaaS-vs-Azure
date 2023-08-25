@@ -1,0 +1,609 @@
+2023-08-16 02:28:37,836 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-08-16 02:28:37,846 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Jmeter\bin\user.properties
+2023-08-16 02:28:37,846 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Jmeter\bin\system.properties
+2023-08-16 02:28:37,853 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-08-16 02:28:37,853 INFO o.a.j.JMeter: Version 5.5
+2023-08-16 02:28:37,853 INFO o.a.j.JMeter: java.version=1.8.0_361
+2023-08-16 02:28:37,853 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: os.name=Windows 11
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: os.arch=x86
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: os.version=10.0
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: java.awt.headless=true
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-08-16 02:28:37,854 INFO o.a.j.JMeter: Available Processors =16
+2023-08-16 02:28:37,858 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-08-16 02:28:37,859 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-08-16 02:28:37,859 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Jmeter
+2023-08-16 02:28:37,859 INFO o.a.j.JMeter: user.dir  =N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2
+2023-08-16 02:28:37,859 INFO o.a.j.JMeter: PWD       =N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2
+2023-08-16 02:28:37,861 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: LAPTOP-PAMDH9IS FullName: LAPTOP-PAMDH9IS
+2023-08-16 02:28:37,877 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard'
+2023-08-16 02:28:37,879 INFO o.a.j.s.FileServer: Default base='N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2'
+2023-08-16 02:28:37,880 INFO o.a.j.s.FileServer: Set new base='N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.'
+2023-08-16 02:28:37,984 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-08-16 02:28:37,997 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-08-16 02:28:38,001 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-08-16 02:28:38,006 INFO o.a.j.s.SaveService: Loading file: .\stepping thread matrix azure.jmx
+2023-08-16 02:28:38,059 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-08-16 02:28:38,059 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-08-16 02:28:38,059 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-08-16 02:28:38,060 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-08-16 02:28:38,060 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-08-16 02:28:38,060 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-08-16 02:28:38,280 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-08-16 02:28:38,290 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-08-16 02:28:38,290 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: Data\report.jtl
+2023-08-16 02:28:38,290 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\Jmeter\bin\reportgenerator.properties
+2023-08-16 02:28:38,290 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-08-16 02:28:38,295 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-08-16 02:28:38,297 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-08-16 02:28:38,301 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,302 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-08-16 02:28:38,303 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2023-08-16 02:28:38,303 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2023-08-16 02:28:38,303 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2023-08-16 02:28:38,304 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-08-16 02:28:38,304 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2023-08-16 02:28:38,304 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-08-16 02:28:38,311 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-08-16 02:28:38,311 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-08-16 02:28:38,311 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-08-16 02:28:38,316 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-08-16 02:28:38,316 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-08-16 02:28:38,528 INFO o.a.j.JMeter: Running test (1692149318528)
+2023-08-16 02:28:38,562 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
+2023-08-16 02:28:38,562 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group jp@gc - Stepping Thread Group.
+2023-08-16 02:28:38,562 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-08-16 02:28:38,562 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2023-08-16 02:28:38,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
+2023-08-16 02:28:38,585 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-PAMDH9IS
+2023-08-16 02:28:38,591 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-08-16 02:28:38,592 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-08-16 02:28:38,592 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-08-16 02:28:38,592 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-08-16 02:28:38,592 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-08-16 02:28:38,608 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-08-16 02:28:38,608 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-08-16 02:28:38,732 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-08-16 02:28:38,736 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-08-16 02:28:38,736 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-08-16 02:28:39,294 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-08-16 02:28:39,296 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-08-16 02:28:39,296 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-08-16 02:28:56,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
+2023-08-16 02:29:00,150 INFO o.a.j.r.Summariser: summary +    165 in 00:00:22 =    7.6/s Avg:   150 Min:    48 Max:  1371 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2023-08-16 02:29:14,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
+2023-08-16 02:29:30,058 INFO o.a.j.r.Summariser: summary +    320 in 00:00:30 =   10.7/s Avg:   234 Min:    47 Max:  9883 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+2023-08-16 02:29:30,059 INFO o.a.j.r.Summariser: summary =    485 in 00:00:52 =    9.4/s Avg:   205 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:29:32,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
+2023-08-16 02:29:50,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
+2023-08-16 02:30:00,130 INFO o.a.j.r.Summariser: summary +    399 in 00:00:30 =   13.3/s Avg:   317 Min:    48 Max:  5144 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2023-08-16 02:30:00,130 INFO o.a.j.r.Summariser: summary =    884 in 00:01:22 =   10.8/s Avg:   256 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:30:08,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
+2023-08-16 02:30:26,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
+2023-08-16 02:30:30,095 INFO o.a.j.r.Summariser: summary +    462 in 00:00:30 =   15.4/s Avg:   374 Min:    60 Max:   910 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2023-08-16 02:30:30,096 INFO o.a.j.r.Summariser: summary =   1346 in 00:01:52 =   12.1/s Avg:   296 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:30:44,566 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
+2023-08-16 02:31:00,119 INFO o.a.j.r.Summariser: summary +    469 in 00:00:30 =   15.6/s Avg:   481 Min:    72 Max:   911 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+2023-08-16 02:31:00,119 INFO o.a.j.r.Summariser: summary =   1815 in 00:02:22 =   12.8/s Avg:   344 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:31:02,574 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
+2023-08-16 02:31:20,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
+2023-08-16 02:31:30,067 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.3/s Avg:   597 Min:   256 Max:  1090 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2023-08-16 02:31:30,068 INFO o.a.j.r.Summariser: summary =   2274 in 00:02:52 =   13.3/s Avg:   395 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:31:38,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-11
+2023-08-16 02:31:56,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-12
+2023-08-16 02:32:00,021 INFO o.a.j.r.Summariser: summary +    447 in 00:00:30 =   14.9/s Avg:   722 Min:   113 Max:  2028 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2023-08-16 02:32:00,022 INFO o.a.j.r.Summariser: summary =   2721 in 00:03:21 =   13.5/s Avg:   449 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:32:14,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-13
+2023-08-16 02:32:30,166 INFO o.a.j.r.Summariser: summary +    395 in 00:00:30 =   13.1/s Avg:   947 Min:   287 Max:  3890 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
+2023-08-16 02:32:30,167 INFO o.a.j.r.Summariser: summary =   3116 in 00:03:52 =   13.5/s Avg:   512 Min:    47 Max:  9883 Err:     0 (0.00%)
+2023-08-16 02:32:32,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-14
+2023-08-16 02:32:50,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-15
+2023-08-16 02:33:00,153 INFO o.a.j.r.Summariser: summary +    457 in 00:00:30 =   15.2/s Avg:   931 Min:   483 Max:  1866 Err:     1 (0.22%) Active: 15 Started: 15 Finished: 0
+2023-08-16 02:33:00,154 INFO o.a.j.r.Summariser: summary =   3573 in 00:04:22 =   13.7/s Avg:   566 Min:    47 Max:  9883 Err:     1 (0.03%)
+2023-08-16 02:33:08,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-16
+2023-08-16 02:33:26,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-17
+2023-08-16 02:33:30,036 INFO o.a.j.r.Summariser: summary +    462 in 00:00:30 =   15.5/s Avg:  1021 Min:   504 Max:  2381 Err:     0 (0.00%) Active: 17 Started: 17 Finished: 0
+2023-08-16 02:33:30,036 INFO o.a.j.r.Summariser: summary =   4035 in 00:04:52 =   13.8/s Avg:   618 Min:    47 Max:  9883 Err:     1 (0.02%)
+2023-08-16 02:33:44,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-18
+2023-08-16 02:34:00,479 INFO o.a.j.r.Summariser: summary +    447 in 00:00:30 =   14.7/s Avg:  1163 Min:   536 Max:  2332 Err:     0 (0.00%) Active: 18 Started: 18 Finished: 0
+2023-08-16 02:34:00,480 INFO o.a.j.r.Summariser: summary =   4482 in 00:05:22 =   13.9/s Avg:   672 Min:    47 Max:  9883 Err:     1 (0.02%)
+2023-08-16 02:34:02,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-19
+2023-08-16 02:34:20,572 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-20
+2023-08-16 02:34:30,094 INFO o.a.j.r.Summariser: summary +    445 in 00:00:30 =   15.0/s Avg:  1301 Min:   707 Max:  2608 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2023-08-16 02:34:30,095 INFO o.a.j.r.Summariser: summary =   4927 in 00:05:52 =   14.0/s Avg:   729 Min:    47 Max:  9883 Err:     1 (0.02%)
+2023-08-16 02:34:38,563 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-21
+2023-08-16 02:34:56,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-22
+2023-08-16 02:35:00,015 INFO o.a.j.r.Summariser: summary +    458 in 00:00:30 =   15.3/s Avg:  1341 Min:   947 Max:  2399 Err:     0 (0.00%) Active: 22 Started: 22 Finished: 0
+2023-08-16 02:35:00,017 INFO o.a.j.r.Summariser: summary =   5385 in 00:06:21 =   14.1/s Avg:   781 Min:    47 Max:  9883 Err:     1 (0.02%)
+2023-08-16 02:35:14,577 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-23
+2023-08-16 02:35:30,051 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.5/s Avg:  1460 Min:   857 Max:  2424 Err:     1 (0.21%) Active: 23 Started: 23 Finished: 0
+2023-08-16 02:35:30,052 INFO o.a.j.r.Summariser: summary =   5851 in 00:06:52 =   14.2/s Avg:   835 Min:    47 Max:  9883 Err:     2 (0.03%)
+2023-08-16 02:35:32,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-24
+2023-08-16 02:35:50,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-25
+2023-08-16 02:36:00,122 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.5/s Avg:  1553 Min:   779 Max:  3370 Err:     1 (0.21%) Active: 25 Started: 25 Finished: 0
+2023-08-16 02:36:00,123 INFO o.a.j.r.Summariser: summary =   6317 in 00:07:22 =   14.3/s Avg:   888 Min:    47 Max:  9883 Err:     3 (0.05%)
+2023-08-16 02:36:08,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-26
+2023-08-16 02:36:26,566 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-27
+2023-08-16 02:36:30,067 INFO o.a.j.r.Summariser: summary +    462 in 00:00:30 =   15.4/s Avg:  1670 Min:   984 Max:  3111 Err:     0 (0.00%) Active: 27 Started: 27 Finished: 0
+2023-08-16 02:36:30,068 INFO o.a.j.r.Summariser: summary =   6779 in 00:07:52 =   14.4/s Avg:   941 Min:    47 Max:  9883 Err:     3 (0.04%)
+2023-08-16 02:36:44,572 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-28
+2023-08-16 02:37:00,093 INFO o.a.j.r.Summariser: summary +    455 in 00:00:30 =   15.2/s Avg:  1805 Min:  1085 Max:  2914 Err:     0 (0.00%) Active: 28 Started: 28 Finished: 0
+2023-08-16 02:37:00,094 INFO o.a.j.r.Summariser: summary =   7234 in 00:08:22 =   14.4/s Avg:   996 Min:    47 Max:  9883 Err:     3 (0.04%)
+2023-08-16 02:37:02,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-29
+2023-08-16 02:37:20,574 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-30
+2023-08-16 02:37:30,056 INFO o.a.j.r.Summariser: summary +    377 in 00:00:30 =   12.6/s Avg:  2253 Min:  1350 Max:  5590 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2023-08-16 02:37:30,057 INFO o.a.j.r.Summariser: summary =   7611 in 00:08:52 =   14.3/s Avg:  1058 Min:    47 Max:  9883 Err:     3 (0.04%)
+2023-08-16 02:37:38,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-31
+2023-08-16 02:37:56,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-32
+2023-08-16 02:38:00,084 INFO o.a.j.r.Summariser: summary +    436 in 00:00:30 =   14.5/s Avg:  2169 Min:  1486 Max:  5188 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
+2023-08-16 02:38:00,085 INFO o.a.j.r.Summariser: summary =   8047 in 00:09:22 =   14.3/s Avg:  1118 Min:    47 Max:  9883 Err:     3 (0.04%)
+2023-08-16 02:38:14,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-33
+2023-08-16 02:38:30,065 INFO o.a.j.r.Summariser: summary +    458 in 00:00:30 =   15.3/s Avg:  2083 Min:  1286 Max:  8355 Err:     1 (0.22%) Active: 33 Started: 33 Finished: 0
+2023-08-16 02:38:30,066 INFO o.a.j.r.Summariser: summary =   8505 in 00:09:52 =   14.4/s Avg:  1170 Min:    47 Max:  9883 Err:     4 (0.05%)
+2023-08-16 02:38:32,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-34
+2023-08-16 02:38:50,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-35
+2023-08-16 02:39:00,184 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.2/s Avg:  2192 Min:  1394 Max:  5543 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+2023-08-16 02:39:00,184 INFO o.a.j.r.Summariser: summary =   8964 in 00:10:22 =   14.4/s Avg:  1223 Min:    47 Max:  9883 Err:     4 (0.04%)
+2023-08-16 02:39:08,565 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-36
+2023-08-16 02:39:26,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-37
+2023-08-16 02:39:34,443 INFO o.a.j.r.Summariser: summary +    433 in 00:00:34 =   12.6/s Avg:  2449 Min:  1309 Max: 54924 Err:     0 (0.00%) Active: 37 Started: 37 Finished: 0
+2023-08-16 02:39:34,444 INFO o.a.j.r.Summariser: summary =   9397 in 00:10:56 =   14.3/s Avg:  1279 Min:    47 Max: 54924 Err:     4 (0.04%)
+2023-08-16 02:39:44,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-38
+2023-08-16 02:40:00,122 INFO o.a.j.r.Summariser: summary +    386 in 00:00:26 =   15.0/s Avg:  3010 Min:  1695 Max:  8566 Err:     0 (0.00%) Active: 38 Started: 38 Finished: 0
+2023-08-16 02:40:00,122 INFO o.a.j.r.Summariser: summary =   9783 in 00:11:22 =   14.4/s Avg:  1347 Min:    47 Max: 54924 Err:     4 (0.04%)
+2023-08-16 02:40:02,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-39
+2023-08-16 02:40:20,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-40
+2023-08-16 02:40:30,101 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.3/s Avg:  2553 Min:  1928 Max:  4224 Err:     1 (0.22%) Active: 40 Started: 40 Finished: 0
+2023-08-16 02:40:30,102 INFO o.a.j.r.Summariser: summary =  10242 in 00:11:52 =   14.4/s Avg:  1401 Min:    47 Max: 54924 Err:     5 (0.05%)
+2023-08-16 02:40:38,576 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-41
+2023-08-16 02:40:56,572 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-42
+2023-08-16 02:41:00,060 INFO o.a.j.r.Summariser: summary +    465 in 00:00:30 =   15.5/s Avg:  2657 Min:  1683 Max:  4006 Err:     1 (0.22%) Active: 42 Started: 42 Finished: 0
+2023-08-16 02:41:00,061 INFO o.a.j.r.Summariser: summary =  10707 in 00:12:22 =   14.4/s Avg:  1456 Min:    47 Max: 54924 Err:     6 (0.06%)
+2023-08-16 02:41:14,572 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-43
+2023-08-16 02:41:30,130 INFO o.a.j.r.Summariser: summary +    463 in 00:00:30 =   15.4/s Avg:  2699 Min:  1803 Max:  6043 Err:     6 (1.30%) Active: 43 Started: 43 Finished: 0
+2023-08-16 02:41:30,131 INFO o.a.j.r.Summariser: summary =  11170 in 00:12:52 =   14.5/s Avg:  1507 Min:    47 Max: 54924 Err:    12 (0.11%)
+2023-08-16 02:41:32,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-44
+2023-08-16 02:41:50,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-45
+2023-08-16 02:42:00,463 INFO o.a.j.r.Summariser: summary +    290 in 00:00:30 =    9.6/s Avg:  2999 Min:  2182 Max: 28726 Err:     1 (0.34%) Active: 45 Started: 45 Finished: 0
+2023-08-16 02:42:00,463 INFO o.a.j.r.Summariser: summary =  11460 in 00:13:22 =   14.3/s Avg:  1545 Min:    47 Max: 54924 Err:    13 (0.11%)
+2023-08-16 02:42:08,565 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-46
+2023-08-16 02:42:26,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-47
+2023-08-16 02:42:30,138 INFO o.a.j.r.Summariser: summary +    366 in 00:00:30 =   12.3/s Avg:  4715 Min:  1980 Max: 15906 Err:     1 (0.27%) Active: 47 Started: 47 Finished: 0
+2023-08-16 02:42:30,141 INFO o.a.j.r.Summariser: summary =  11826 in 00:13:52 =   14.2/s Avg:  1643 Min:    47 Max: 54924 Err:    14 (0.12%)
+2023-08-16 02:42:44,566 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-48
+2023-08-16 02:43:00,003 INFO o.a.j.r.Summariser: summary +    436 in 00:00:30 =   14.6/s Avg:  3139 Min:  2097 Max:  6742 Err:     4 (0.92%) Active: 48 Started: 48 Finished: 0
+2023-08-16 02:43:00,003 INFO o.a.j.r.Summariser: summary =  12262 in 00:14:21 =   14.2/s Avg:  1697 Min:    47 Max: 54924 Err:    18 (0.15%)
+2023-08-16 02:43:02,563 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-49
+2023-08-16 02:43:20,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-50
+2023-08-16 02:43:30,038 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.5/s Avg:  3030 Min:  2196 Max:  3821 Err:     5 (1.07%) Active: 50 Started: 50 Finished: 0
+2023-08-16 02:43:30,039 INFO o.a.j.r.Summariser: summary =  12728 in 00:14:52 =   14.3/s Avg:  1745 Min:    47 Max: 54924 Err:    23 (0.18%)
+2023-08-16 02:43:38,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-51
+2023-08-16 02:43:56,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-52
+2023-08-16 02:44:00,062 INFO o.a.j.r.Summariser: summary +    473 in 00:00:30 =   15.8/s Avg:  3670 Min:  2332 Max: 109226 Err:     5 (1.06%) Active: 52 Started: 52 Finished: 0
+2023-08-16 02:44:00,063 INFO o.a.j.r.Summariser: summary =  13201 in 00:15:22 =   14.3/s Avg:  1814 Min:    47 Max: 109226 Err:    28 (0.21%)
+2023-08-16 02:44:14,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-53
+2023-08-16 02:44:32,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-54
+2023-08-16 02:44:50,574 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-55
+2023-08-16 02:45:00,005 INFO o.a.j.r.Summariser: summary +    582 in 00:01:00 =    9.7/s Avg:  5192 Min:  2316 Max: 29432 Err:     3 (0.52%) Active: 55 Started: 55 Finished: 0
+2023-08-16 02:45:00,005 INFO o.a.j.r.Summariser: summary =  13783 in 00:16:21 =   14.0/s Avg:  1957 Min:    47 Max: 109226 Err:    31 (0.22%)
+2023-08-16 02:45:08,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-56
+2023-08-16 02:45:26,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-57
+2023-08-16 02:45:30,014 INFO o.a.j.r.Summariser: summary +    441 in 00:00:30 =   14.7/s Avg:  3737 Min:  2026 Max: 57667 Err:     5 (1.13%) Active: 57 Started: 57 Finished: 0
+2023-08-16 02:45:30,015 INFO o.a.j.r.Summariser: summary =  14224 in 00:16:51 =   14.1/s Avg:  2012 Min:    47 Max: 109226 Err:    36 (0.25%)
+2023-08-16 02:45:44,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-58
+2023-08-16 02:46:00,047 INFO o.a.j.r.Summariser: summary +    458 in 00:00:30 =   15.2/s Avg:  3613 Min:  2531 Max:  6380 Err:     2 (0.44%) Active: 58 Started: 58 Finished: 0
+2023-08-16 02:46:00,048 INFO o.a.j.r.Summariser: summary =  14682 in 00:17:22 =   14.1/s Avg:  2062 Min:    47 Max: 109226 Err:    38 (0.26%)
+2023-08-16 02:46:02,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-59
+2023-08-16 02:46:20,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-60
+2023-08-16 02:46:30,013 INFO o.a.j.r.Summariser: summary +    436 in 00:00:30 =   14.5/s Avg:  3763 Min:  2638 Max:  7180 Err:     5 (1.15%) Active: 60 Started: 60 Finished: 0
+2023-08-16 02:46:30,014 INFO o.a.j.r.Summariser: summary =  15118 in 00:17:51 =   14.1/s Avg:  2111 Min:    47 Max: 109226 Err:    43 (0.28%)
+2023-08-16 02:46:38,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-61
+2023-08-16 02:46:56,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-62
+2023-08-16 02:47:00,143 INFO o.a.j.r.Summariser: summary +    457 in 00:00:30 =   15.2/s Avg:  3802 Min:  2723 Max:  7013 Err:     6 (1.31%) Active: 62 Started: 62 Finished: 0
+2023-08-16 02:47:00,144 INFO o.a.j.r.Summariser: summary =  15575 in 00:18:22 =   14.1/s Avg:  2161 Min:    47 Max: 109226 Err:    49 (0.31%)
+2023-08-16 02:47:14,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-63
+2023-08-16 02:47:32,466 INFO o.a.j.r.Summariser: summary +    352 in 00:00:32 =   10.9/s Avg:  4661 Min:  3257 Max: 18232 Err:     3 (0.85%) Active: 63 Started: 63 Finished: 0
+2023-08-16 02:47:32,467 INFO o.a.j.r.Summariser: summary =  15927 in 00:18:54 =   14.0/s Avg:  2216 Min:    47 Max: 109226 Err:    52 (0.33%)
+2023-08-16 02:47:32,565 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-64
+2023-08-16 02:47:50,566 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-65
+2023-08-16 02:48:00,032 INFO o.a.j.r.Summariser: summary +    306 in 00:00:28 =   11.1/s Avg:  7081 Min:  2793 Max: 216790 Err:     4 (1.31%) Active: 65 Started: 65 Finished: 0
+2023-08-16 02:48:00,033 INFO o.a.j.r.Summariser: summary =  16233 in 00:19:22 =   14.0/s Avg:  2308 Min:    47 Max: 216790 Err:    56 (0.34%)
+2023-08-16 02:48:08,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-66
+2023-08-16 02:48:26,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-67
+2023-08-16 02:48:30,185 INFO o.a.j.r.Summariser: summary +    433 in 00:00:30 =   14.4/s Avg:  5531 Min:  3356 Max: 215300 Err:     6 (1.39%) Active: 67 Started: 67 Finished: 0
+2023-08-16 02:48:30,186 INFO o.a.j.r.Summariser: summary =  16666 in 00:19:52 =   14.0/s Avg:  2391 Min:    47 Max: 216790 Err:    62 (0.37%)
+2023-08-16 02:48:44,575 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-68
+2023-08-16 02:49:02,576 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-69
+2023-08-16 02:49:20,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-70
+2023-08-16 02:49:30,096 INFO o.a.j.r.Summariser: summary +    675 in 00:01:00 =   11.3/s Avg:  5740 Min:  3011 Max: 58918 Err:     7 (1.04%) Active: 70 Started: 70 Finished: 0
+2023-08-16 02:49:30,097 INFO o.a.j.r.Summariser: summary =  17341 in 00:20:52 =   13.9/s Avg:  2522 Min:    47 Max: 216790 Err:    69 (0.40%)
+2023-08-16 02:49:38,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-71
+2023-08-16 02:49:56,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-72
+2023-08-16 02:50:00,054 INFO o.a.j.r.Summariser: summary +    358 in 00:00:30 =   12.0/s Avg:  5580 Min:  3192 Max: 17376 Err:     9 (2.51%) Active: 72 Started: 72 Finished: 0
+2023-08-16 02:50:00,055 INFO o.a.j.r.Summariser: summary =  17699 in 00:21:22 =   13.8/s Avg:  2584 Min:    47 Max: 216790 Err:    78 (0.44%)
+2023-08-16 02:50:14,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-73
+2023-08-16 02:50:30,051 INFO o.a.j.r.Summariser: summary +    361 in 00:00:30 =   12.0/s Avg:  5763 Min:  3217 Max: 111593 Err:     8 (2.22%) Active: 73 Started: 73 Finished: 0
+2023-08-16 02:50:30,053 INFO o.a.j.r.Summariser: summary =  18060 in 00:21:52 =   13.8/s Avg:  2647 Min:    47 Max: 216790 Err:    86 (0.48%)
+2023-08-16 02:50:32,574 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-74
+2023-08-16 02:50:50,574 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-75
+2023-08-16 02:51:05,640 INFO o.a.j.r.Summariser: summary +    372 in 00:00:36 =   10.5/s Avg:  6926 Min:  3680 Max: 31123 Err:     8 (2.15%) Active: 75 Started: 75 Finished: 0
+2023-08-16 02:51:05,640 INFO o.a.j.r.Summariser: summary =  18432 in 00:22:27 =   13.7/s Avg:  2734 Min:    47 Max: 216790 Err:    94 (0.51%)
+2023-08-16 02:51:08,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-76
+2023-08-16 02:51:26,577 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-77
+2023-08-16 02:51:30,042 INFO o.a.j.r.Summariser: summary +    362 in 00:00:24 =   14.8/s Avg:  6135 Min:  3883 Max: 12164 Err:     1 (0.28%) Active: 77 Started: 77 Finished: 0
+2023-08-16 02:51:30,043 INFO o.a.j.r.Summariser: summary =  18794 in 00:22:52 =   13.7/s Avg:  2799 Min:    47 Max: 216790 Err:    95 (0.51%)
+2023-08-16 02:51:44,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-78
+2023-08-16 02:52:00,085 INFO o.a.j.r.Summariser: summary +    444 in 00:00:30 =   14.8/s Avg:  4981 Min:  3810 Max: 11001 Err:    11 (2.48%) Active: 78 Started: 78 Finished: 0
+2023-08-16 02:52:00,086 INFO o.a.j.r.Summariser: summary =  19238 in 00:23:22 =   13.7/s Avg:  2849 Min:    47 Max: 216790 Err:   106 (0.55%)
+2023-08-16 02:52:02,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-79
+2023-08-16 02:52:20,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-80
+2023-08-16 02:52:30,276 INFO o.a.j.r.Summariser: summary +    291 in 00:00:30 =    9.6/s Avg:  7477 Min:  2381 Max: 121469 Err:    16 (5.50%) Active: 80 Started: 80 Finished: 0
+2023-08-16 02:52:30,276 INFO o.a.j.r.Summariser: summary =  19529 in 00:23:52 =   13.6/s Avg:  2918 Min:    47 Max: 216790 Err:   122 (0.62%)
+2023-08-16 02:52:38,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-81
+2023-08-16 02:52:56,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-82
+2023-08-16 02:53:00,143 INFO o.a.j.r.Summariser: summary +    156 in 00:00:30 =    5.2/s Avg: 11098 Min:  3287 Max: 30039 Err:     4 (2.56%) Active: 82 Started: 82 Finished: 0
+2023-08-16 02:53:00,144 INFO o.a.j.r.Summariser: summary =  19685 in 00:24:22 =   13.5/s Avg:  2983 Min:    47 Max: 216790 Err:   126 (0.64%)
+2023-08-16 02:53:14,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-83
+2023-08-16 02:53:30,026 INFO o.a.j.r.Summariser: summary +    254 in 00:00:30 =    8.5/s Avg: 10546 Min:  3066 Max: 41679 Err:     3 (1.18%) Active: 83 Started: 83 Finished: 0
+2023-08-16 02:53:30,027 INFO o.a.j.r.Summariser: summary =  19939 in 00:24:51 =   13.4/s Avg:  3080 Min:    47 Max: 216790 Err:   129 (0.65%)
+2023-08-16 02:53:32,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-84
+2023-08-16 02:53:50,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-85
+2023-08-16 02:54:08,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-86
+2023-08-16 02:54:26,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-87
+2023-08-16 02:54:31,130 INFO o.a.j.r.Summariser: summary +    416 in 00:01:01 =    6.8/s Avg: 13013 Min:  2830 Max: 121295 Err:    17 (4.09%) Active: 87 Started: 87 Finished: 0
+2023-08-16 02:54:31,131 INFO o.a.j.r.Summariser: summary =  20355 in 00:25:53 =   13.1/s Avg:  3283 Min:    47 Max: 216790 Err:   146 (0.72%)
+2023-08-16 02:54:44,564 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-88
+2023-08-16 02:55:00,016 INFO o.a.j.r.Summariser: summary +    403 in 00:00:29 =   14.0/s Avg:  7510 Min:  1468 Max: 121968 Err:    26 (6.45%) Active: 88 Started: 88 Finished: 0
+2023-08-16 02:55:00,017 INFO o.a.j.r.Summariser: summary =  20758 in 00:26:21 =   13.1/s Avg:  3365 Min:    47 Max: 216790 Err:   172 (0.83%)
+2023-08-16 02:55:02,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-89
+2023-08-16 02:55:20,573 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-90
+2023-08-16 02:55:30,004 INFO o.a.j.r.Summariser: summary +    375 in 00:00:30 =   12.5/s Avg:  6921 Min:  2890 Max: 18574 Err:     4 (1.07%) Active: 90 Started: 90 Finished: 0
+2023-08-16 02:55:30,005 INFO o.a.j.r.Summariser: summary =  21133 in 00:26:51 =   13.1/s Avg:  3428 Min:    47 Max: 216790 Err:   176 (0.83%)
+2023-08-16 02:55:38,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-91
+2023-08-16 02:55:56,572 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-92
+2023-08-16 02:56:04,466 INFO o.a.j.r.Summariser: summary +    363 in 00:00:34 =   10.5/s Avg:  4929 Min:  3045 Max: 31854 Err:     3 (0.83%) Active: 92 Started: 92 Finished: 0
+2023-08-16 02:56:04,467 INFO o.a.j.r.Summariser: summary =  21496 in 00:27:26 =   13.1/s Avg:  3453 Min:    47 Max: 216790 Err:   179 (0.83%)
+2023-08-16 02:56:14,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-93
+2023-08-16 02:56:32,567 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-94
+2023-08-16 02:56:35,184 INFO o.a.j.r.Summariser: summary +    141 in 00:00:31 =    4.6/s Avg: 15261 Min:  4020 Max: 112427 Err:     1 (0.71%) Active: 94 Started: 94 Finished: 0
+2023-08-16 02:56:35,184 INFO o.a.j.r.Summariser: summary =  21637 in 00:27:57 =   12.9/s Avg:  3530 Min:    47 Max: 216790 Err:   180 (0.83%)
+2023-08-16 02:56:50,571 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-95
+2023-08-16 02:57:00,622 INFO o.a.j.r.Summariser: summary +    372 in 00:00:25 =   14.6/s Avg:  8302 Min:  3273 Max: 111297 Err:     8 (2.15%) Active: 95 Started: 95 Finished: 0
+2023-08-16 02:57:00,622 INFO o.a.j.r.Summariser: summary =  22009 in 00:28:22 =   12.9/s Avg:  3611 Min:    47 Max: 216790 Err:   188 (0.85%)
+2023-08-16 02:57:08,577 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-96
+2023-08-16 02:57:26,565 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-97
+2023-08-16 02:57:44,568 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-98
+2023-08-16 02:58:01,254 INFO o.a.j.r.Summariser: summary +    433 in 00:01:01 =    7.1/s Avg: 15099 Min:  3859 Max: 120107 Err:    36 (8.31%) Active: 98 Started: 98 Finished: 0
+2023-08-16 02:58:01,255 INFO o.a.j.r.Summariser: summary =  22442 in 00:29:23 =   12.7/s Avg:  3832 Min:    47 Max: 216790 Err:   224 (1.00%)
+2023-08-16 02:58:02,570 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-99
+2023-08-16 02:58:20,563 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-100
+2023-08-16 02:58:30,048 INFO o.a.j.r.Summariser: summary +    145 in 00:00:29 =    5.0/s Avg: 18817 Min:  5652 Max: 58105 Err:     2 (1.38%) Active: 100 Started: 100 Finished: 0
+2023-08-16 02:58:30,049 INFO o.a.j.r.Summariser: summary =  22587 in 00:29:52 =   12.6/s Avg:  3929 Min:    47 Max: 216790 Err:   226 (1.00%)
+2023-08-16 02:59:00,146 INFO o.a.j.r.Summariser: summary +    493 in 00:00:30 =   16.4/s Avg:  6345 Min:  3874 Max: 111201 Err:    13 (2.64%) Active: 100 Started: 100 Finished: 0
+2023-08-16 02:59:00,147 INFO o.a.j.r.Summariser: summary =  23080 in 00:30:22 =   12.7/s Avg:  3980 Min:    47 Max: 216790 Err:   239 (1.04%)
+2023-08-16 02:59:30,003 INFO o.a.j.r.Summariser: summary +    484 in 00:00:30 =   16.2/s Avg:  7465 Min:  3752 Max: 217218 Err:    21 (4.34%) Active: 100 Started: 100 Finished: 0
+2023-08-16 02:59:30,004 INFO o.a.j.r.Summariser: summary =  23564 in 00:30:51 =   12.7/s Avg:  4052 Min:    47 Max: 217218 Err:   260 (1.10%)
+2023-08-16 03:00:00,071 INFO o.a.j.r.Summariser: summary +    365 in 00:00:30 =   12.1/s Avg:  8281 Min:  4564 Max: 110957 Err:    15 (4.11%) Active: 100 Started: 100 Finished: 0
+2023-08-16 03:00:00,071 INFO o.a.j.r.Summariser: summary =  23929 in 00:31:22 =   12.7/s Avg:  4116 Min:    47 Max: 217218 Err:   275 (1.15%)
+2023-08-16 03:00:19,546 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-10
+2023-08-16 03:00:19,546 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-10
+2023-08-16 03:00:19,547 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-3
+2023-08-16 03:00:19,547 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-3
+2023-08-16 03:00:20,367 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-7
+2023-08-16 03:00:20,367 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-7
+2023-08-16 03:00:20,370 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-1
+2023-08-16 03:00:20,370 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-1
+2023-08-16 03:00:20,940 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-4
+2023-08-16 03:00:20,940 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-4
+2023-08-16 03:00:21,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-9
+2023-08-16 03:00:21,090 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-9
+2023-08-16 03:00:21,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-5
+2023-08-16 03:00:21,413 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-5
+2023-08-16 03:00:22,402 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-8
+2023-08-16 03:00:22,402 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-8
+2023-08-16 03:00:27,875 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-6
+2023-08-16 03:00:27,875 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-6
+2023-08-16 03:00:30,015 INFO o.a.j.r.Summariser: summary +    433 in 00:00:30 =   14.5/s Avg:  6534 Min:  4915 Max: 34021 Err:     3 (0.69%) Active: 91 Started: 100 Finished: 9
+2023-08-16 03:00:30,015 INFO o.a.j.r.Summariser: summary =  24362 in 00:31:51 =   12.7/s Avg:  4159 Min:    47 Max: 217218 Err:   278 (1.14%)
+2023-08-16 03:01:00,120 INFO o.a.j.r.Summariser: summary +    475 in 00:00:30 =   15.8/s Avg:  5338 Min:  4345 Max: 111996 Err:     4 (0.84%) Active: 91 Started: 100 Finished: 9
+2023-08-16 03:01:00,121 INFO o.a.j.r.Summariser: summary =  24837 in 00:32:22 =   12.8/s Avg:  4182 Min:    47 Max: 217218 Err:   282 (1.14%)
+2023-08-16 03:01:32,329 INFO o.a.j.r.Summariser: summary +    403 in 00:00:32 =   12.5/s Avg:  6043 Min:  4198 Max: 113014 Err:     8 (1.99%) Active: 91 Started: 100 Finished: 9
+2023-08-16 03:01:32,329 INFO o.a.j.r.Summariser: summary =  25240 in 00:32:54 =   12.8/s Avg:  4211 Min:    47 Max: 217218 Err:   290 (1.15%)
+2023-08-16 03:01:58,771 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-2
+2023-08-16 03:01:58,771 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-2
+2023-08-16 03:02:00,002 INFO o.a.j.r.Summariser: summary +    264 in 00:00:28 =    9.5/s Avg:  9139 Min:  4117 Max: 114540 Err:    19 (7.20%) Active: 90 Started: 100 Finished: 10
+2023-08-16 03:02:00,002 INFO o.a.j.r.Summariser: summary =  25504 in 00:33:21 =   12.7/s Avg:  4262 Min:    47 Max: 217218 Err:   309 (1.21%)
+2023-08-16 03:02:00,438 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-17
+2023-08-16 03:02:00,438 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-17
+2023-08-16 03:02:11,058 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-13
+2023-08-16 03:02:11,058 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-13
+2023-08-16 03:02:11,058 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-12
+2023-08-16 03:02:11,059 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-12
+2023-08-16 03:02:12,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-18
+2023-08-16 03:02:12,301 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-18
+2023-08-16 03:02:12,543 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-16
+2023-08-16 03:02:12,543 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-16
+2023-08-16 03:02:13,083 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-15
+2023-08-16 03:02:13,083 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-15
+2023-08-16 03:02:13,148 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-20
+2023-08-16 03:02:13,148 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-20
+2023-08-16 03:02:13,551 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-19
+2023-08-16 03:02:13,551 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-19
+2023-08-16 03:02:13,868 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-14
+2023-08-16 03:02:13,868 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-14
+2023-08-16 03:02:30,252 INFO o.a.j.r.Summariser: summary +    315 in 00:00:30 =   10.4/s Avg: 11767 Min:  4156 Max: 112879 Err:    17 (5.40%) Active: 81 Started: 100 Finished: 19
+2023-08-16 03:02:30,252 INFO o.a.j.r.Summariser: summary =  25819 in 00:33:52 =   12.7/s Avg:  4354 Min:    47 Max: 217218 Err:   326 (1.26%)
+2023-08-16 03:02:37,997 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-11
+2023-08-16 03:02:37,997 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-11
+2023-08-16 03:03:00,031 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.6/s Avg:  5167 Min:  3751 Max: 57863 Err:     6 (1.29%) Active: 80 Started: 100 Finished: 20
+2023-08-16 03:03:00,032 INFO o.a.j.r.Summariser: summary =  26285 in 00:34:22 =   12.8/s Avg:  4368 Min:    47 Max: 217218 Err:   332 (1.26%)
+2023-08-16 03:03:30,112 INFO o.a.j.r.Summariser: summary +    311 in 00:00:30 =   10.3/s Avg:  7715 Min:  4337 Max: 30961 Err:     5 (1.61%) Active: 80 Started: 100 Finished: 20
+2023-08-16 03:03:30,112 INFO o.a.j.r.Summariser: summary =  26596 in 00:34:52 =   12.7/s Avg:  4408 Min:    47 Max: 217218 Err:   337 (1.27%)
+2023-08-16 03:03:38,594 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-21
+2023-08-16 03:03:38,594 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-21
+2023-08-16 03:03:39,024 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-30
+2023-08-16 03:03:39,024 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-30
+2023-08-16 03:03:39,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-24
+2023-08-16 03:03:39,177 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-24
+2023-08-16 03:03:39,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-22
+2023-08-16 03:03:39,219 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-22
+2023-08-16 03:03:39,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-23
+2023-08-16 03:03:39,317 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-23
+2023-08-16 03:03:40,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-26
+2023-08-16 03:03:40,694 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-26
+2023-08-16 03:03:42,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-28
+2023-08-16 03:03:42,290 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-28
+2023-08-16 03:03:42,389 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-27
+2023-08-16 03:03:42,390 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-27
+2023-08-16 03:03:42,618 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-25
+2023-08-16 03:03:42,618 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-25
+2023-08-16 03:03:42,912 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-29
+2023-08-16 03:03:42,912 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-29
+2023-08-16 03:04:00,048 INFO o.a.j.r.Summariser: summary +    466 in 00:00:30 =   15.6/s Avg:  4587 Min:  3243 Max: 17046 Err:    16 (3.43%) Active: 70 Started: 100 Finished: 30
+2023-08-16 03:04:00,049 INFO o.a.j.r.Summariser: summary =  27062 in 00:35:22 =   12.8/s Avg:  4411 Min:    47 Max: 217218 Err:   353 (1.30%)
+2023-08-16 03:04:30,103 INFO o.a.j.r.Summariser: summary +    453 in 00:00:30 =   15.1/s Avg:  4208 Min:  3410 Max: 30294 Err:     0 (0.00%) Active: 70 Started: 100 Finished: 30
+2023-08-16 03:04:30,104 INFO o.a.j.r.Summariser: summary =  27515 in 00:35:52 =   12.8/s Avg:  4407 Min:    47 Max: 217218 Err:   353 (1.28%)
+2023-08-16 03:05:00,080 INFO o.a.j.r.Summariser: summary +    460 in 00:00:30 =   15.3/s Avg:  5294 Min:  3423 Max: 111135 Err:     9 (1.96%) Active: 70 Started: 100 Finished: 30
+2023-08-16 03:05:00,080 INFO o.a.j.r.Summariser: summary =  27975 in 00:36:22 =   12.8/s Avg:  4422 Min:    47 Max: 217218 Err:   362 (1.29%)
+2023-08-16 03:05:18,775 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-32
+2023-08-16 03:05:18,775 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-32
+2023-08-16 03:05:18,968 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-36
+2023-08-16 03:05:18,968 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-36
+2023-08-16 03:05:19,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-33
+2023-08-16 03:05:19,313 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-33
+2023-08-16 03:05:20,416 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-34
+2023-08-16 03:05:20,416 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-34
+2023-08-16 03:05:20,921 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-37
+2023-08-16 03:05:20,921 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-37
+2023-08-16 03:05:21,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-38
+2023-08-16 03:05:21,159 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-38
+2023-08-16 03:05:22,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-31
+2023-08-16 03:05:22,153 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-31
+2023-08-16 03:05:22,644 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-39
+2023-08-16 03:05:22,644 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-39
+2023-08-16 03:05:23,000 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-35
+2023-08-16 03:05:23,000 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-35
+2023-08-16 03:05:23,441 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-40
+2023-08-16 03:05:23,441 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-40
+2023-08-16 03:05:30,127 INFO o.a.j.r.Summariser: summary +    447 in 00:00:30 =   14.9/s Avg:  4657 Min:  3447 Max:  8008 Err:     6 (1.34%) Active: 60 Started: 100 Finished: 40
+2023-08-16 03:05:30,128 INFO o.a.j.r.Summariser: summary =  28422 in 00:36:52 =   12.9/s Avg:  4426 Min:    47 Max: 217218 Err:   368 (1.29%)
+2023-08-16 03:06:00,370 INFO o.a.j.r.Summariser: summary +    395 in 00:00:30 =   13.1/s Avg:  4558 Min:  1024 Max: 15840 Err:     7 (1.77%) Active: 60 Started: 100 Finished: 40
+2023-08-16 03:06:00,371 INFO o.a.j.r.Summariser: summary =  28817 in 00:37:22 =   12.9/s Avg:  4427 Min:    47 Max: 217218 Err:   375 (1.30%)
+2023-08-16 03:06:30,087 INFO o.a.j.r.Summariser: summary +    356 in 00:00:30 =   12.0/s Avg:  4920 Min:  2468 Max: 17449 Err:     1 (0.28%) Active: 60 Started: 100 Finished: 40
+2023-08-16 03:06:30,088 INFO o.a.j.r.Summariser: summary =  29173 in 00:37:52 =   12.8/s Avg:  4433 Min:    47 Max: 217218 Err:   376 (1.29%)
+2023-08-16 03:06:58,834 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-49
+2023-08-16 03:06:58,834 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-49
+2023-08-16 03:07:00,199 INFO o.a.j.r.Summariser: summary +    454 in 00:00:30 =   15.1/s Avg:  3973 Min:  2849 Max: 31101 Err:     0 (0.00%) Active: 59 Started: 100 Finished: 41
+2023-08-16 03:07:00,200 INFO o.a.j.r.Summariser: summary =  29627 in 00:38:22 =   12.9/s Avg:  4426 Min:    47 Max: 217218 Err:   376 (1.27%)
+2023-08-16 03:07:01,076 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-43
+2023-08-16 03:07:01,076 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-43
+2023-08-16 03:07:01,213 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-42
+2023-08-16 03:07:01,213 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-42
+2023-08-16 03:07:01,221 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-41
+2023-08-16 03:07:01,221 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-41
+2023-08-16 03:07:01,764 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-46
+2023-08-16 03:07:01,764 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-46
+2023-08-16 03:07:01,813 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-48
+2023-08-16 03:07:01,813 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-48
+2023-08-16 03:07:01,886 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-45
+2023-08-16 03:07:01,886 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-45
+2023-08-16 03:07:01,887 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-47
+2023-08-16 03:07:01,888 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-47
+2023-08-16 03:07:03,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-50
+2023-08-16 03:07:03,133 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-50
+2023-08-16 03:07:30,188 INFO o.a.j.r.Summariser: summary +    272 in 00:00:30 =    9.1/s Avg:  5586 Min:  1964 Max: 30099 Err:     6 (2.21%) Active: 51 Started: 100 Finished: 49
+2023-08-16 03:07:30,188 INFO o.a.j.r.Summariser: summary =  29899 in 00:38:52 =   12.8/s Avg:  4437 Min:    47 Max: 217218 Err:   382 (1.28%)
+2023-08-16 03:07:57,661 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-44
+2023-08-16 03:07:57,661 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-44
+2023-08-16 03:08:00,046 INFO o.a.j.r.Summariser: summary +    463 in 00:00:30 =   15.5/s Avg:  3465 Min:  1915 Max: 59624 Err:     1 (0.22%) Active: 50 Started: 100 Finished: 50
+2023-08-16 03:08:00,047 INFO o.a.j.r.Summariser: summary =  30362 in 00:39:22 =   12.9/s Avg:  4422 Min:    47 Max: 217218 Err:   383 (1.26%)
+2023-08-16 03:08:35,132 INFO o.a.j.r.Summariser: summary +    372 in 00:00:35 =   10.6/s Avg:  3587 Min:  2096 Max: 15943 Err:     8 (2.15%) Active: 50 Started: 100 Finished: 50
+2023-08-16 03:08:35,133 INFO o.a.j.r.Summariser: summary =  30734 in 00:39:57 =   12.8/s Avg:  4412 Min:    47 Max: 217218 Err:   391 (1.27%)
+2023-08-16 03:08:38,866 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-58
+2023-08-16 03:08:38,867 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-58
+2023-08-16 03:08:39,043 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-56
+2023-08-16 03:08:39,043 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-56
+2023-08-16 03:08:39,287 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-57
+2023-08-16 03:08:39,287 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-57
+2023-08-16 03:08:40,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-51
+2023-08-16 03:08:40,339 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-51
+2023-08-16 03:08:40,427 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-55
+2023-08-16 03:08:40,427 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-55
+2023-08-16 03:08:40,431 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-52
+2023-08-16 03:08:40,431 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-52
+2023-08-16 03:08:40,742 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-54
+2023-08-16 03:08:40,742 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-54
+2023-08-16 03:08:41,334 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-59
+2023-08-16 03:08:41,334 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-59
+2023-08-16 03:08:41,365 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-53
+2023-08-16 03:08:41,365 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-53
+2023-08-16 03:08:41,545 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-60
+2023-08-16 03:08:41,545 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-60
+2023-08-16 03:09:00,102 INFO o.a.j.r.Summariser: summary +    392 in 00:00:25 =   15.7/s Avg:  3858 Min:  1716 Max: 15177 Err:     0 (0.00%) Active: 40 Started: 100 Finished: 60
+2023-08-16 03:09:00,103 INFO o.a.j.r.Summariser: summary =  31126 in 00:40:22 =   12.9/s Avg:  4405 Min:    47 Max: 217218 Err:   391 (1.26%)
+2023-08-16 03:09:30,012 INFO o.a.j.r.Summariser: summary +    470 in 00:00:30 =   15.7/s Avg:  2558 Min:  1790 Max:  3394 Err:     2 (0.43%) Active: 40 Started: 100 Finished: 60
+2023-08-16 03:09:30,013 INFO o.a.j.r.Summariser: summary =  31596 in 00:40:51 =   12.9/s Avg:  4378 Min:    47 Max: 217218 Err:   393 (1.24%)
+2023-08-16 03:10:00,016 INFO o.a.j.r.Summariser: summary +    463 in 00:00:30 =   15.4/s Avg:  2589 Min:  1947 Max:  3768 Err:     5 (1.08%) Active: 40 Started: 100 Finished: 60
+2023-08-16 03:10:00,017 INFO o.a.j.r.Summariser: summary =  32059 in 00:41:21 =   12.9/s Avg:  4352 Min:    47 Max: 217218 Err:   398 (1.24%)
+2023-08-16 03:10:18,970 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-70
+2023-08-16 03:10:18,970 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-70
+2023-08-16 03:10:19,195 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-63
+2023-08-16 03:10:19,195 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-63
+2023-08-16 03:10:19,585 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-64
+2023-08-16 03:10:19,585 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-64
+2023-08-16 03:10:20,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-65
+2023-08-16 03:10:20,308 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-65
+2023-08-16 03:10:20,532 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-67
+2023-08-16 03:10:20,532 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-67
+2023-08-16 03:10:20,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-66
+2023-08-16 03:10:20,838 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-66
+2023-08-16 03:10:20,971 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-68
+2023-08-16 03:10:20,971 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-68
+2023-08-16 03:10:21,049 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-61
+2023-08-16 03:10:21,049 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-61
+2023-08-16 03:10:21,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-69
+2023-08-16 03:10:21,297 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-69
+2023-08-16 03:10:21,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-62
+2023-08-16 03:10:21,308 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-62
+2023-08-16 03:10:30,006 INFO o.a.j.r.Summariser: summary +    438 in 00:00:30 =   14.6/s Avg:  2583 Min:  1131 Max:  3781 Err:     8 (1.83%) Active: 30 Started: 100 Finished: 70
+2023-08-16 03:10:30,007 INFO o.a.j.r.Summariser: summary =  32497 in 00:41:51 =   12.9/s Avg:  4328 Min:    47 Max: 217218 Err:   406 (1.25%)
+2023-08-16 03:11:00,179 INFO o.a.j.r.Summariser: summary +    454 in 00:00:30 =   15.0/s Avg:  1955 Min:  1369 Max:  3149 Err:     1 (0.22%) Active: 30 Started: 100 Finished: 70
+2023-08-16 03:11:00,179 INFO o.a.j.r.Summariser: summary =  32951 in 00:42:22 =   13.0/s Avg:  4295 Min:    47 Max: 217218 Err:   407 (1.24%)
+2023-08-16 03:11:30,002 INFO o.a.j.r.Summariser: summary +    447 in 00:00:30 =   15.0/s Avg:  2018 Min:   954 Max:  3272 Err:     4 (0.89%) Active: 30 Started: 100 Finished: 70
+2023-08-16 03:11:30,003 INFO o.a.j.r.Summariser: summary =  33398 in 00:42:51 =   13.0/s Avg:  4265 Min:    47 Max: 217218 Err:   411 (1.23%)
+2023-08-16 03:11:58,885 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-74
+2023-08-16 03:11:58,885 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-74
+2023-08-16 03:11:59,169 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-73
+2023-08-16 03:11:59,169 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-73
+2023-08-16 03:11:59,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-72
+2023-08-16 03:11:59,361 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-72
+2023-08-16 03:11:59,632 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-77
+2023-08-16 03:11:59,632 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-77
+2023-08-16 03:11:59,647 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-76
+2023-08-16 03:11:59,647 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-76
+2023-08-16 03:11:59,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-78
+2023-08-16 03:11:59,838 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-78
+2023-08-16 03:11:59,861 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-79
+2023-08-16 03:11:59,861 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-79
+2023-08-16 03:12:00,126 INFO o.a.j.r.Summariser: summary +    467 in 00:00:30 =   15.5/s Avg:  1944 Min:  1110 Max:  4937 Err:     3 (0.64%) Active: 23 Started: 100 Finished: 77
+2023-08-16 03:12:00,126 INFO o.a.j.r.Summariser: summary =  33865 in 00:43:22 =   13.0/s Avg:  4233 Min:    47 Max: 217218 Err:   414 (1.22%)
+2023-08-16 03:12:00,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-80
+2023-08-16 03:12:00,127 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-80
+2023-08-16 03:12:00,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-71
+2023-08-16 03:12:00,130 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-71
+2023-08-16 03:12:00,482 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-75
+2023-08-16 03:12:00,482 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-75
+2023-08-16 03:12:30,524 INFO o.a.j.r.Summariser: summary +    376 in 00:00:30 =   12.4/s Avg:  1595 Min:   924 Max:  4594 Err:     1 (0.27%) Active: 20 Started: 100 Finished: 80
+2023-08-16 03:12:30,525 INFO o.a.j.r.Summariser: summary =  34241 in 00:43:52 =   13.0/s Avg:  4204 Min:    47 Max: 217218 Err:   415 (1.21%)
+2023-08-16 03:13:00,007 INFO o.a.j.r.Summariser: summary +    433 in 00:00:29 =   14.7/s Avg:  1406 Min:   774 Max:  3103 Err:     1 (0.23%) Active: 20 Started: 100 Finished: 80
+2023-08-16 03:13:00,008 INFO o.a.j.r.Summariser: summary =  34674 in 00:44:21 =   13.0/s Avg:  4169 Min:    47 Max: 217218 Err:   416 (1.20%)
+2023-08-16 03:13:30,172 INFO o.a.j.r.Summariser: summary +    421 in 00:00:30 =   14.0/s Avg:  1426 Min:   847 Max:  2840 Err:     0 (0.00%) Active: 20 Started: 100 Finished: 80
+2023-08-16 03:13:30,173 INFO o.a.j.r.Summariser: summary =  35095 in 00:44:52 =   13.0/s Avg:  4136 Min:    47 Max: 217218 Err:   416 (1.19%)
+2023-08-16 03:13:38,920 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-87
+2023-08-16 03:13:38,920 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-87
+2023-08-16 03:13:38,950 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-83
+2023-08-16 03:13:38,950 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-83
+2023-08-16 03:13:38,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-82
+2023-08-16 03:13:38,958 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-82
+2023-08-16 03:13:39,182 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-81
+2023-08-16 03:13:39,182 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-81
+2023-08-16 03:13:39,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-90
+2023-08-16 03:13:39,295 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-90
+2023-08-16 03:13:39,372 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-88
+2023-08-16 03:13:39,372 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-88
+2023-08-16 03:13:39,489 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-85
+2023-08-16 03:13:39,490 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-85
+2023-08-16 03:13:39,500 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-84
+2023-08-16 03:13:39,500 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-84
+2023-08-16 03:13:39,720 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-89
+2023-08-16 03:13:39,720 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-89
+2023-08-16 03:13:39,748 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-86
+2023-08-16 03:13:39,748 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-86
+2023-08-16 03:14:00,085 INFO o.a.j.r.Summariser: summary +    450 in 00:00:30 =   15.0/s Avg:   891 Min:   345 Max:  1825 Err:     0 (0.00%) Active: 10 Started: 100 Finished: 90
+2023-08-16 03:14:00,085 INFO o.a.j.r.Summariser: summary =  35545 in 00:45:22 =   13.1/s Avg:  4095 Min:    47 Max: 217218 Err:   416 (1.17%)
+2023-08-16 03:14:30,081 INFO o.a.j.r.Summariser: summary +    456 in 00:00:30 =   15.2/s Avg:   658 Min:   299 Max:  1127 Err:     0 (0.00%) Active: 10 Started: 100 Finished: 90
+2023-08-16 03:14:30,081 INFO o.a.j.r.Summariser: summary =  36001 in 00:45:52 =   13.1/s Avg:  4051 Min:    47 Max: 217218 Err:   416 (1.16%)
+2023-08-16 03:15:00,155 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.3/s Avg:   649 Min:   294 Max:  1144 Err:     0 (0.00%) Active: 10 Started: 100 Finished: 90
+2023-08-16 03:15:00,155 INFO o.a.j.r.Summariser: summary =  36460 in 00:46:22 =   13.1/s Avg:  4008 Min:    47 Max: 217218 Err:   416 (1.14%)
+2023-08-16 03:15:18,599 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-94
+2023-08-16 03:15:18,599 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-94
+2023-08-16 03:15:18,618 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-91
+2023-08-16 03:15:18,619 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-91
+2023-08-16 03:15:18,789 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-95
+2023-08-16 03:15:18,789 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-95
+2023-08-16 03:15:18,796 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-96
+2023-08-16 03:15:18,796 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-96
+2023-08-16 03:15:18,978 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-97
+2023-08-16 03:15:18,979 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-97
+2023-08-16 03:15:18,994 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-93
+2023-08-16 03:15:18,994 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-93
+2023-08-16 03:15:19,049 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-100
+2023-08-16 03:15:19,049 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-100
+2023-08-16 03:15:19,203 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-92
+2023-08-16 03:15:19,203 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-92
+2023-08-16 03:15:19,325 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-99
+2023-08-16 03:15:19,325 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-99
+2023-08-16 03:15:19,344 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-98
+2023-08-16 03:15:19,344 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-98
+2023-08-16 03:15:19,345 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-08-16 03:15:19,345 INFO o.a.j.r.Summariser: summary +    291 in 00:00:19 =   15.2/s Avg:   664 Min:   282 Max:  1209 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2023-08-16 03:15:19,346 INFO o.a.j.r.Summariser: summary =  36751 in 00:46:41 =   13.1/s Avg:  3982 Min:    47 Max: 217218 Err:   416 (1.13%)
+2023-08-16 03:15:19,346 INFO o.a.j.JMeter: Generating Dashboard
+2023-08-16 03:15:19,346 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-08-16 03:15:19,362 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-08-16 03:15:20,515 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-08-16 03:15:20,515 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-08-16 03:15:20,517 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-08-16 03:15:20,517 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-08-16 03:15:20,525 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-08-16 03:15:20,528 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-08-16 03:15:20,528 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-08-16 03:15:20,528 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-08-16 03:15:20,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-08-16 03:15:20,727 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-08-16 03:15:20,727 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-08-16 03:15:20,728 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-08-16 03:15:20,892 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-08-16 03:15:20,893 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 257257 samples
+2023-08-16 03:15:20,893 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-08-16 03:15:20,893 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-08-16 03:15:20,893 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-08-16 03:15:20,893 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-08-16 03:15:20,894 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-08-16 03:15:20,894 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-08-16 03:15:20,901 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-08-16 03:15:20,904 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-08-16 03:15:20,904 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-08-16 03:15:20,904 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-08-16 03:15:20,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 551265 samples
+2023-08-16 03:15:20,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 110253 samples
+2023-08-16 03:15:20,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 36751 samples
+2023-08-16 03:15:20,905 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 36751 samples produced in 1s 516 ms on channel 0
+2023-08-16 03:15:20,905 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2023-08-16 03:15:21,030 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2023-08-16 03:15:21,030 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2023-08-16 03:15:21,031 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2023-08-16 03:15:21,031 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2023-08-16 03:15:21,032 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard\statistics.json
+2023-08-16 03:15:21,074 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-08-16 03:15:21,077 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard
+2023-08-16 03:15:21,171 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard, creating folder structure
+2023-08-16 03:15:21,174 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\Jmeter\bin\report-template' to 'N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard', got message: N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard, found non empty folder with following content [N:\ACS\MSc dissertation\Deployment\Azure\Jmeter Testing\stepping thread\matrix-test\V2\.\Dashboard\statistics.json], will be ignored
+2023-08-16 03:15:21,477 INFO o.a.j.JMeter: Dashboard generated
